@@ -1,5 +1,5 @@
-import Header from './components/Header/page';
-import Buttons from './components/Buttons/page';
+import Header from './components/Header/Header';
+import Buttons from './components/Buttons/Buttons';
 import { SessionProvider } from 'next-auth/react';
 
 export default function Home() {

@@ -7,7 +7,8 @@ import { signOut, signIn, useSession } from "next-auth/react";
 const Buttons: React.FC = () => {
     const {data: session} = useSession();
     // console.log("session", session);
-    
+
+
     return (
         <div>
             {session?.user?.email ? (
